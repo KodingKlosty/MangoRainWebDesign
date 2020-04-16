@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd mrwd && npm start",
     "heroku-postbuild": "cd mrwd && npm install && npm run build",
-    "netfly" : "cd mrwd && npm start"
+    "netfly" : "cd mrwd && npm run build"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KodingKlosty/MangoRainWebDesign/issues"
-  },
-  "homepage": "https://github.com/KodingKlosty/MangoRainWebDesign#readme"
+  }
 }
