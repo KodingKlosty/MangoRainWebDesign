@@ -6,11 +6,15 @@
   "dependencies": {
     "node": "^13.12.0"
   },
+  "engines": {
+    "node" : "12.9.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd mrwd && npm start",
-    "heroku-postbuild": "cd mrwd && npm install && npm run build"
+    "heroku-postbuild": "cd mrwd && npm install && npm run build",
+    "netfly" : "cd mrwd && npm install && npm run build"
   },
   "repository": {
     "type": "git",
