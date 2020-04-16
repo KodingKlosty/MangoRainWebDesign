@@ -1,0 +1,29 @@
+{
+  "name": "mangorainwebdesign",
+  "version": "0.0.1",
+  "description": "MangoRain's Hello World April 15, 2020",
+  "main": "index.js",
+  "dependencies": {
+    "node": "^13.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KodingKlosty/MangoRainWebDesign.git"
+  },
+  "keywords": [
+    "Mango",
+    "Rain",
+    "Web",
+    "Design"
+  ],
+  "author": "James Klostermeyer (Intern @ Mango Rain)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KodingKlosty/MangoRainWebDesign/issues"
+  },
+  "homepage": "https://github.com/KodingKlosty/MangoRainWebDesign#readme"
+}
