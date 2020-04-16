@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd mrwd && npm start",
     "heroku-postbuild": "cd mrwd && npm install && npm run build",
-    "netfly" : "cd mrwd && npm install && npm run build"
+    "netfly" : "cd mrwd && npm start"
   },
   "repository": {
     "type": "git",
