@@ -8,17 +8,18 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd mrwd && npm start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KodingKlosty/MangoRainWebDesign.git"
   },
   "keywords": [
-    "Mango",
-    "Rain",
-    "Web",
-    "Design"
+    "Mango Rain",
+    "Web Design",
+    "Web Developer",
+    "Website Coder"
   ],
   "author": "James Klostermeyer (Intern @ Mango Rain)",
   "license": "ISC",
