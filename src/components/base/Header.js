@@ -21,21 +21,23 @@ class Header extends Component {
                     </Navbar>
                     <Nav className='navContainer'>
                         <NavItem>
-                            <NavLink className="allLinks" href="/">Home</NavLink>
+                            <NavLink activeclassame="selected" className="allLinks"  href="/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='allLinks' href="/portfolio">Portfolio</NavLink>
+                            <NavLink activeclassname="selected" className='allLinks' href="/portfolio">Portfolio</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='allLinks' href="/about">About</NavLink>
+                            <NavLink activeclassname="selected" className='allLinks' href="/about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='allLinks' href="/hire">Hire Me</NavLink>
+                            <NavLink activeclassname="selected" className='allLinks' href="/hire">Hire Me</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='allLinks' href="/portal">Client Portal</NavLink>
+                            <NavLink activeclassname="selected" className='allLinks' href="/portal">Client Portal</NavLink>
                         </NavItem>
                     </Nav>
+                </div>
+                <div className='breakerBar'>
                 </div>
             </div> // End Main div
         )  // End Return

@@ -8,7 +8,11 @@
 
 .centerFooter {
     text-align: center;
-    color: rgb(55, 55, 55
-    );
+    color: rgb(55, 55, 55);
     font-weight: bold;
+}
+
+.breakerBar {
+    background-color: $ok-btn;
+    padding: 2px;
 }

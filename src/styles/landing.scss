@@ -1,0 +1,13 @@
+//imports
+@import './variables.scss';
+
+.main{
+    background-color: $primary-color;
+    height: 700px;
+    width: 100%;
+}
+
+.imgFloatRight{
+    float: right;
+    margin: 30px;
+}
