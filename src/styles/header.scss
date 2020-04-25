@@ -25,16 +25,18 @@ h1 {
         background-color: $caution-btn;
         border-radius: 15px 15px 0px 0px;    
     }
+
+    .activeLink {
+        background-color: $ok-btn;
+        border-radius: 15px 15px 0px 0px;
+    }
     
 };
 
 .allLinks {
     color: white; 
 }
-.activeLink {
-    background-color: $ok-btn;
-    border-radius: 15px 15px 0px 0px;
-}
+
 
 .breakerBar {
     background-color: $ok-btn;
