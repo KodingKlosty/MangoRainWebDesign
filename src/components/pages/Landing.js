@@ -7,10 +7,10 @@ import  '../../styles/landing.scss'
 class Landing extends Component {
     render (){
         return(
-            <div className='main'>
-                <div>
+            <div>
+                <div className='main'>
                     <h1>Web Designer for Hire. 
-                    <img className="imgFloatRight" src="https://via.placeholder.com/500x500?text=Picture+Selction+Needed" alt="Web Designer Photo"/>
+                    <img  src="https://via.placeholder.com/500x500?text=Picture+Selction+Needed" alt="Web Designer"/>
                     </h1>
                 </div>
             </div>
