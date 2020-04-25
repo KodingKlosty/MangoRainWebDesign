@@ -1,0 +1,32 @@
+//imports
+@import './variables.scss';
+
+//classnames
+.main{
+    background-color: $primary-color;
+    display: flex;
+    flex-flow: column;
+    height: 71vh;
+}
+
+.mainContainer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.eightyPx{
+    font-weight: bold;
+    font-size: 80px;
+    font-family: $righteous;
+    color: white;
+    text-align: right;
+    padding-top: 60px;
+}
+
+
+// not used currently
+.imgFloatRight{
+    float: right;
+    margin-top: auto;
+    margin-right: 30px;
+}
