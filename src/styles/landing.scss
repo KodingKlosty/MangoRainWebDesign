@@ -1,12 +1,13 @@
 //imports
 @import './variables.scss';
+@import './baseStyle.scss';
 
 //classnames
 .main{
     background-color: $primary-color;
     display: flex;
     flex-flow: column;
-    height: 71vh;
+    min-height: 71vh;
 }
 
 .mainContainer{
