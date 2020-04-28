@@ -1,5 +1,8 @@
-import React from 'react';
+//style
+import './styles/baseStyle.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
+//components
+import React from 'react';
 import Header from './components/base/Header'
 import Footer from './components/base/Footer'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
