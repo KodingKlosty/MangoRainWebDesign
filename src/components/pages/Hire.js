@@ -21,6 +21,7 @@ class Hire extends Component {
 
     onloadCallback = () => {
         console.log('captcha loaded')
+        this.setState({isHuman: true})
     }
 
     verifyCallback = (res) => {
