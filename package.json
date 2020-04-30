@@ -17,11 +17,7 @@
     "sass": "^1.26.3"
   },
   "scripts": {
-<<<<<<< HEAD
     "start": "npm start",
-=======
-    "start": "react-scripts start",
->>>>>>> 3d5b091459784f1e190fef4c4876fcaa1fd1644f
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
