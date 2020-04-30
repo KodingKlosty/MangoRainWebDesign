@@ -1,3 +1,6 @@
+// styles
+import '../../styles/about.scss'
+// component
 import React, {Component} from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import {Link} from 'react-router-dom'
@@ -7,7 +10,7 @@ class About extends Component {
     render (){
         return(
             <div className='main'>
-                <Container>
+                <Container className='container'>
                     <Row>
                         <Col>
                             <h2>Who I am</h2>
